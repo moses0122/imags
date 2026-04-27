@@ -39,6 +39,7 @@ export function Navbar({
             : "bg-transparent border-transparent py-8"
         }`}
       >
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <div className="max-w-3xl mx-auto w-full px-6 md:px-0 flex items-center justify-between">
           {/* Left: Brand */}
           <Link to="/" className="group select-none">
