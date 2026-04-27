@@ -15,6 +15,7 @@ export function Footer({ navOptions }: FooterProps) {
 
   return (
     <footer className="border-t border-border/40 bg-background/50 py-16 mt-32">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <div className="max-w-3xl mx-auto px-6 md:px-0 flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Brand / Copyright */}
         <div className="flex flex-col items-center md:items-start gap-2">
