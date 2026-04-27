@@ -54,6 +54,7 @@ export function HomePage({ posts, pinnedPosts }: HomePageProps) {
               {siteConfig.description}
             </p>
           </div>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </header>
 
         <div className="flex items-center gap-6 text-muted-foreground">
