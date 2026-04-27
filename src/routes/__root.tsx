@@ -139,6 +139,8 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           ]}
         />
         <Scripts />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3209954826976745"
+     crossorigin="anonymous"></script>
       </body>
     </html>
   );
